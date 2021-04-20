@@ -1,0 +1,31 @@
+.panda-card {
+    border: 0;
+}
+
+header {
+    background-color: #FFFBF0;
+}
+
+.panda-card-img {
+    height: 293px;
+}
+
+.panda-card-footer p {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+}
+
+@media (max-width: 760px) {
+    .bd-highlight img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .bd-highlight h4,
+    p {
+        text-align: center;
+    }
+}
